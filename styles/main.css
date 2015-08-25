@@ -2,8 +2,25 @@ body {
 	background-color: #D1D3D7;
 }
 header {
+	background-color: #0070A4;
+	height: 3em;
+	padding-right: 5em;
+}
+#headerBar {
 	background-color: #118BC0;
 	height: 3em;
+	padding: .5em 14em .5em 1em;
+}
+#rightBox {
+	background-color: #fff;
+	height: 2em;
+	width: 7em;
+	float: right;
+}
+#leftBox {
+	background-color: #fff;
+	height: 2em;
+	width: 2em;
 }
 .landing {
 	background-color: #344051;
@@ -36,11 +53,42 @@ header {
 	height: 4em;
 	background-color: #fff;
 	margin: 2em;
+	padding-right: .2em;
+}
+.bigInsideBox {
+	background-color: #616E7F;
+	float: right;
+	height: 3.2em;
+	width: 18em;
+}
+.smallInsideBox {
+	background-color: #616E7F;
+	height: 3.2em;
+	width: 3.5em;
+	float: left;
+	margin-top: .8em;
 }
 .bigWhite {
 	height: 14em;
 	background-color: #fff;
 	margin: 2em .5em;
+	padding: 1em 1em 0em 1em;
+}
+.topBox {
+	background-color: #C7D2D8;
+	height: 4em;
+	width: 4em;
+	margin: 0 auto;
+}
+.middleBox {
+	background-color: #C7D2D8;
+	height: 2em;
+	margin-top: 1em;
+}
+.bottomBox {
+	background-color: #C7D2D8;
+	height: 3.5em;
+	margin-top: 1.5em;
 }
 .text {
 	height: 7.5em;
