@@ -1,0 +1,72 @@
+body {
+	background-color: #D1D3D7;
+}
+header {
+	background-color: #118BC0;
+	height: 3em;
+}
+.landing {
+	background-color: #344051;
+	height: 55em;
+	padding: 7em 2em 4em 2em;
+}
+.landing > h1, p {
+	color: #fff;
+	text-align: center;
+}
+.landing > p {
+	margin: 0em 3.5em;
+}
+.lightBlue {
+	height: 12em;
+	background-color: #E8F0F5;
+}
+.blue {
+	height: 3.5em;
+	background-color: #118BC0;
+	margin: 3em 5em;
+	border: .8em solid #212934;
+}
+.smallWhite {
+	height: 1.2em;
+	background-color: #fff;
+	margin: 12em 11em 7.5em 11em;
+}
+.mediumWhite {
+	height: 4em;
+	background-color: #fff;
+	margin: 2em;
+}
+.bigWhite {
+	height: 14em;
+	background-color: #fff;
+	margin: 2em .5em;
+}
+.text {
+	height: 7.5em;
+}
+.bottomBlue {
+	height: 3.5em;
+	background-color: #118BC0;
+	margin: 0 8em;
+}
+footer {
+	height: 10em;
+	background-color: #000000;
+}
+footer p {
+	text-align: center;
+	padding-top: .8em;
+	margin: 0;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	font-size: .8em;
+	margin: 0 .5em;
+}
+.footerBox {
+	height: 2em;
+	background-color: #fff;
+	margin: 1.8em 10em 0em 10em;
+}
