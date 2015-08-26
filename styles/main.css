@@ -37,6 +37,7 @@ img {
 	margin-top: 1.2em;
 }
 .landing {
+	background-size: cover;
 	background-image: url(../images/crowd.jpg);
 	height: 70em;
 	padding: 7em 2em 4em 2em;
