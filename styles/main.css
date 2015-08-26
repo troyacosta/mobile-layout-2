@@ -12,7 +12,6 @@ header {
 	padding: .5em 14em .5em 1em;
 }
 #rightBox {
-	background-color: #fff;
 	height: 2em;
 	width: 7em;
 	float: right;
@@ -22,9 +21,12 @@ header {
 	height: 2em;
 	width: 2em;
 }
+#rightBox > span {
+	color: #A8CDE0;
+}
 .landing {
 	background-color: #344051;
-	height: 55em;
+	height: 70em;
 	padding: 7em 2em 4em 2em;
 }
 .landing > h1, p {
@@ -37,36 +39,54 @@ header {
 .lightBlue {
 	height: 12em;
 	background-color: #E8F0F5;
+	text-align: center;
+	line-height: 2.75em;
 }
 .blue {
 	height: 3.5em;
 	background-color: #118BC0;
 	margin: 3em 5em;
 	border: .8em solid #212934;
+	text-align: center;
+	padding-bottom: 1em;
 }
-.smallWhite {
-	height: 1.2em;
+.blue > h2 {
+	color: #fff;
+}
+.dash {
 	background-color: #fff;
-	margin: 12em 11em 7.5em 11em;
+	width: 2.5em;
+	height: 1em;
+	margin: 0 auto;
+	margin-top: 15em;
+	margin-bottom: 10em;
 }
-.mediumWhite {
+#bottomLanding {
+	padding-left: 4em;
+}
+.fix {
+	height: 7em;
+}
+.whiteBox {
+	background-color: #fff;
 	height: 4em;
-	background-color: #fff;
-	margin: 2em;
-	padding-right: .2em;
+	width: 3em;
 }
-.bigInsideBox {
-	background-color: #616E7F;
+.floatText {
+	color: #fff;
 	float: right;
-	height: 3.2em;
-	width: 18em;
+	padding-right: 2em;
+	float: right;
 }
-.smallInsideBox {
-	background-color: #616E7F;
-	height: 3.2em;
-	width: 3.5em;
-	float: left;
-	margin-top: .8em;
+.floatText > h3 {
+	margin: 0;
+}
+.floatText > p {
+	font-size: .9em;
+}
+.lightBlue > p {
+	color: #50535D;
+	font-size: 1.7em;
 }
 .bigWhite {
 	height: 14em;
@@ -81,31 +101,39 @@ header {
 	margin: 0 auto;
 }
 .middleBox {
-	background-color: #C7D2D8;
 	height: 2em;
 	margin-top: 1em;
+	text-align: center;
 }
 .bottomBox {
-	background-color: #C7D2D8;
 	height: 3.5em;
 	margin-top: 1.5em;
 }
-.text {
-	height: 7.5em;
+.middleBox > h3 {
+	color: #486673;
+}
+.bottomBox > p {
+	color: #3F363C;
+	line-height: 1.5em;
+}
+#text > p {
+	color: #464251;
+	font-size: 1.5em;
 }
 .bottomBlue {
 	height: 3.5em;
 	background-color: #118BC0;
 	margin: 0 8em;
+	color: #fff;
+	margin-top: 4em;
 }
 footer {
 	height: 10em;
 	background-color: #000000;
 }
-footer p {
-	text-align: center;
-	padding-top: .8em;
+.links {
 	margin: 0;
+	padding-top: 2em;
 }
 a {
 	color: #fff;
@@ -113,8 +141,4 @@ a {
 	font-size: .8em;
 	margin: 0 .5em;
 }
-.footerBox {
-	height: 2em;
-	background-color: #fff;
-	margin: 1.8em 10em 0em 10em;
-}
+
